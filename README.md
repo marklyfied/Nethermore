@@ -2,7 +2,7 @@
 
 Nethermore Sector is a fork of [Monolith](https://github.com/new-frontiers-14/frontier-station-14) that runs on the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
 
-This is the primary repo for Nethermore Sector.
+This is the primary repo for the Nethermore Sector.
 
 If you want to host or create content for Nethermore Sector, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
 
