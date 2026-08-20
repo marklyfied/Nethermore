@@ -1,6 +1,7 @@
-﻿# Lore Primer:
+﻿<Document>
+  [bold] Lore Primer: [/bold]
 
-##  (relatively) Early History
+  [bold] (relatively) Early History [/bold]
 
 
   In 2045, Donald J Trump unfortunately passed. The Trump Organization collapsed. Leftover staff joined together and created Gardens Trust corporation which quickly became a large and powerful corporation that does everything from car repair and grocery stores to CPU chip development and arms weapons dealing. Their power quickly surpassed the governments.
@@ -18,10 +19,13 @@
 
 
 
-  ## Present Day:
+
+  [bold] Present Day: [/bold]
 
   The year is 2340. A very large black hole anomaly opened 50 years ago, limiting movement across the universe. With the new limited number of space humanity now has to expand, the eyes are set for one sector. An opportunity filled, resource rich sector. The Armstrong sector. All major factions want a piece of the sector.
 
   This is where you are.
 
   The major factions are on the brink of all out war.
+
+</Document>

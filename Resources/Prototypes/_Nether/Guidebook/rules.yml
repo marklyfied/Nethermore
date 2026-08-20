@@ -1,0 +1,4 @@
+- type: guideEntry
+  id: NetherRules
+  name: Rules
+  text: "/ServerInfo/_Nether/Rules/nethermoreruleset.xml"
