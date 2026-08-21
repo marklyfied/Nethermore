@@ -10,9 +10,9 @@
   - TargetHuman
   - TargetSyndicate
   - Zipties
-  - RookrVoucherCC
-  - TaserVoucherCC
-  - HoundVoucherCC
+#  - RookrVoucherCC
+#  - TaserVoucherCC
+#  - HoundVoucherCC
 
 # Practice ammo/mags and practice weapons
 - type: latheRecipePack
