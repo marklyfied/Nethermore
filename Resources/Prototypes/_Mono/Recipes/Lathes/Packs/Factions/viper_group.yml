@@ -8,7 +8,7 @@
   - ClothingOuterHardsuitViperGroupStandard
   - ClothingOuterHardsuitViperGroupMedic
   - ClothingOuterHardsuitViperGroupJuggernaut
-#  - ShipVoucherVGWolf
+  - ShipVoucherVGWolf
 
 - type: latheRecipePack
   id: MonoViperGroupStatic
