@@ -44,7 +44,7 @@
       stationProto: SecurityFrontierOutpost
       gridComponents:
       - type: VesselInfo
-        description: "A mothballed battleship-turned-FOB, and Home of the TSFMC operations."
+        description: "This reminds you of tel aviv."
       components:
         - type: StationNameSetup
           mapNameTemplate: 'TSFMC Flagship Halcyon'
