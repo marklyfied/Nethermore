@@ -6,7 +6,7 @@
   maximumDistance: 5000
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
   spawnGroup: Required
-  gridPath: /Maps/_Nether/POI/portvulcan
+  gridPath: /Maps/_Nether/POI/portvulcan.yml
   addComponents:
   - type: IFF
     color: "#37946e"
@@ -16,10 +16,10 @@
 - type: gameMap
   id: PortVulcan
   mapName: 'Port Vulcan'
-  mapPath: /Maps/_Nether/POI/portvulcan
+  mapPath: /Maps/_Nether/POI/portvulcan.yml
   minPlayers: 0
   stations:
-    ZetaNode:
+    PortVulcan:
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup

@@ -29,10 +29,12 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: grid
+      name: Port Vulcan
     - type: Transform
       pos: 0.19137812,-1.0854129
       parent: invalid
+    - type: BecomesStation
+      id: PortVulcan
     - type: MapGrid
       chunks:
         0,0:
