@@ -95,9 +95,9 @@ fence-rattle-success = *rattle*
 
 ## Hugging players / Mono
 
-hugging-success-generic = You pat {THE($target)} on the back.
-hugging-success-generic-others = { CAPITALIZE(THE($user)) } pats {THE($target)} on the back.
-hugging-success-generic-target = { CAPITALIZE(THE($user)) } pats you on the back.
+hugging-success-generic = You hug {THE($target)}.
+hugging-success-generic-others = { CAPITALIZE(THE($user)) } hugs {THE($target)}.
+hugging-success-generic-target = { CAPITALIZE(THE($user)) } hugs you.
 ## Other
 
 petting-success-tesla = You pet {THE($target)}, violating the laws of nature and physics.
