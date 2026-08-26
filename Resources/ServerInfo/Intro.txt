@@ -2,6 +2,6 @@ Welcome to Space Station 14! You have just woken up in the dangerous Colossus Se
 
 Please make sure you understand the server rules (F1) and if you have any questions, consult this guide, your colleagues in-sector or over radio or via discord. You can also ask admins for help (ahelp) by hitting the escape key > admin help and typing a message to any online admins. Especially do this if you witness someone breaking rules.
 
-Be aware that the Colossus sector is a very dangerous place. Expect your stuff to be stolen, destroyed, exploded, or otherwise lost - Always remember this. Your gun is your best friend.
+Be aware that the Nethemrmore sector is a very dangerous place. Expect your stuff to be stolen, destroyed, exploded, or otherwise lost - Always remember this. Your gun is your best friend.
 
 Instead of intents, we have combat mode. Check controls below for its keybind. You can't attack anybody with it off, so no more hitting yourself with your own crowbar.
