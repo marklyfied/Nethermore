@@ -1,11 +1,11 @@
 ﻿Entries:
-- author: Ark
+- author: Marklyfied
   changes:
-  - message: Let there be Monolith.
+  - message: Hi Nethermore
     type: Add
   id: 1
-  time: '2025-03-23T17:10:16-07:00'
-- author: Ark
+  time: '2026-08-23T17:10:16-07:00'
+- author: Marklyfied
   changes:
   - type: Add
-    message: Added Monolith Changelog!
+    message: Added Nethermore
