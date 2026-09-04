@@ -13,7 +13,7 @@
   changes:
   - message: All guns are unachorable go nuts.
     type: Tweak
-  - message: Icons for nethermore work now
+  - message: Icons for nethermore work now.
     type: Tweak
   id: 2
   time: '2026-09-04T08:09-09:00'
