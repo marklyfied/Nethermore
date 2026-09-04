@@ -17,3 +17,9 @@
     type: Tweak
   id: 2
   time: '2026-09-04T08:09-09:00'
+- author: Meh32
+  changes:
+  - message: Drones no longer target people only ships.
+    type: Tweak
+  id: 3
+  time: '2026-09-04T08:09-09:00'
