@@ -78,8 +78,7 @@
   id: BallisticArtilleryUnanchorable
   parent: BallisticArtilleryBase
   abstract: true
-  components:
-  - type: RequiresGrid
+
 
 - type: entity
   id: BallisticArtillery
@@ -186,8 +185,7 @@
   id: BallisticArtilleryUnanchorableCartridge
   parent: BallisticArtilleryBaseCartridge
   abstract: true
-  components:
-  - type: RequiresGrid
+
 
 - type: entity
   id: BallisticArtilleryBaseMagazine
@@ -291,8 +289,7 @@
   id: BallisticArtilleryUnanchorableMagazine
   parent: BallisticArtilleryBaseMagazine
   abstract: true
-  components:
-  - type: RequiresGrid
+
 
 # Durabilities - You can vary from this, this is just the main standard. Size of the gun is often used when deciding durability. More size, more likely to get hit.
 
@@ -301,6 +298,11 @@
   suffix: T1
   abstract: true
   components:
+  - type: Rotatable
+    increment: 90
+  - type: Pullable
+  - type: Anchorable
+    delay: 10
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: WallDefense1
@@ -327,6 +329,11 @@
   abstract: true
   suffix: T2
   components:
+  - type: Rotatable
+    increment: 90
+  - type: Pullable
+  - type: Anchorable
+    delay: 20
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: WallDefense2
@@ -347,6 +354,11 @@
   abstract: true
   suffix: T3
   components:
+  - type: Rotatable
+    increment: 90
+  - type: Pullable
+  - type: Anchorable
+    delay: 30
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: WallDefense2
@@ -373,6 +385,11 @@
   abstract: true
   suffix: T4
   components:
+  - type: Rotatable
+    increment: 90
+  - type: Pullable
+  - type: Anchorable
+    delay: 40
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: WallDefense3
