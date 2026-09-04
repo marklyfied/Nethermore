@@ -230,9 +230,9 @@
   - type: Targeting # Shitmed Change
   - type: SurgeryTarget # Shitmed Change
   - type: ExaminableCharacter # WWDP
-  # Mono
-  - type: ShipNpcTarget
-    needGrid: NoGrid
+  # Nethermore
+  #- type: ShipNpcTarget
+  #  needGrid: NoGrid
 
 - type: entity
   save: false
