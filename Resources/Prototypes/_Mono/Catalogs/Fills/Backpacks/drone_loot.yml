@@ -5,6 +5,8 @@
   description: Data recorder from a drone. Contains valuable components.
   suffix: Drone Loot
   components:
+  - type: Magboots
+    requiresGrid: false
   - type: RadarBlip
     radarColor: "#FFFF00"
     scale: 1
