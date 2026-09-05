@@ -1,0 +1,124 @@
+#region Random Spawners
+
+- type: entity
+  id: SpawnDroneBaseNether
+  parent: MarkerBase
+  abstract: true
+  components:
+  - type: GridSpawner
+    addComponents:
+    - type: IFF
+      flags: AlwaysShowColor
+      color: "#612121"
+    - type: GridCleanupGrid
+      cleanupAcceleration: 3
+      ignorePowered: true
+      ignoreIFF: true
+      ignorePrice: true
+      distanceOverride: 1024 # so it doesn't despawn while in view
+    - type: RandomMetadata
+      nameSeparator: ""
+      nameSegments:
+      - DroneTitle
+      - " 0x"
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+    nameGrid: false
+
+- type: entity
+  id: NetherDroneSpawnerT0 #Used in LINEAR cluster biome
+  parent: MarkerBase
+  categories: [Spawner]
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - SpawnDroneMote
+    - SpawnDroneDander
+    - SpawnDroneMPulsar
+
+- type: entity
+  id: SpawnDroneScout
+  parent: SpawnDroneBaseNether
+  components:
+  - type: GridSpawner
+    path: /SharedMaps/_Nether/Shuttles/world/Scout.yml
+    addComponents:
+    - type: RandomMetadata
+      nameSeparator: ""
+      nameSegments:
+      - "SCOUT-"
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - "-"
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+    nameGrid: false
+
+- type: entity
+  id: SpawnDroneAssault
+  parent: SpawnDroneBaseNether
+  components:
+  - type: GridSpawner
+    path: /SharedMaps/_Nether/Shuttles/world/Assault.yml
+    addComponents:
+    - type: RandomMetadata
+      nameSeparator: ""
+      nameSegments:
+      - "ASSAULT-"
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - "-"
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+    nameGrid: false
+
+- type: entity
+  id: SpawnDroneTrapper
+  parent: SpawnDroneBaseNether
+  components:
+  - type: GridSpawner
+    path: /SharedMaps/_Nether/Shuttles/world/Trapper.yml
+    addComponents:
+    - type: RandomMetadata
+      nameSeparator: ""
+      nameSegments:
+      - "TRAPPER-"
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - "-"
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+    nameGrid: false
+
+- type: entity
+  id: SpawnDroneSurvey
+  parent: SpawnDroneBaseNether
+  components:
+  - type: GridSpawner
+    path: /SharedMaps/_Nether/Shuttles/world/Trapper.yml
+    addComponents:
+    - type: RandomMetadata
+      nameSeparator: ""
+      nameSegments:
+      - "SURVEYOR-"
+      - DroneHex
+      - DroneHex
+      - DroneHex
+      - DroneHex
+    nameGrid: false
