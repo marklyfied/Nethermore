@@ -834,8 +834,8 @@
   id: NeverGraveyard
   parent: NFBiomeBase
   priority: 50 # avg center coords is about 5056, 4480
-  minX: 34 # 4352m
-  maxX: 45 # 5760m
+  minX: 24 # 3072m
+  maxX: 35 # 4480m
   minY: -67 # -8578
   maxY: -51 # -6528
   noiseRanges: {}

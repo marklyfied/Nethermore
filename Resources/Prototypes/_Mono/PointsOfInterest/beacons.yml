@@ -62,7 +62,7 @@
   name: 'STYX FTL Depot'
   minimumDistance: 0
   maximumDistance: 100
-  posX: 5056
+  posX: 4000
   posY: -7552
   spawnGroup: Required
   gridPath: /Maps/_Nether/POI/beaconstation_styx.yml
