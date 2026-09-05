@@ -127,3 +127,14 @@
     id: BiomeInnerRing
     swapDistance: 5000
     priority: 2000
+
+# Nethermore
+- type: entity
+  id: BiomeSourceGraveyard
+  parent: BaseBiomeSource
+  name: Ship graveyard biome source
+  components:
+  - type: SpaceBiomeSource
+    id: BiomeGraveyard
+    swapDistance: 1200
+    priority: 500

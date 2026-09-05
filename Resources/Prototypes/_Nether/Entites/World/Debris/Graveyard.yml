@@ -1,0 +1,108 @@
+- type: dataset
+  id: ShipSuffix
+  values:
+  - Impeteux
+  - Exploit
+  - Dreadnought
+  - Indefatigable
+  - Invincible
+  - Defiant
+  - Unsinkable
+  - Dauntless
+  - Intrepid
+
+- type: dataset
+  id: ShipPrefix
+  values:
+  - HMS
+  - USS
+  - USNS
+  - GMCS
+  - HMAS
+  - INS
+  - MV
+  - MT
+  - SS
+  - FV
+  - SY
+  - MY
+
+
+- type: entity
+  id: SpawnWreckBase
+  parent: MarkerBase
+  abstract: true
+  components:
+  - type: GridSpawner
+    addComponents:
+    - type: IFF
+      flags: HideLabel
+      color: "#727272"
+    - type: GridCleanupGrid
+      cleanupAcceleration: 3
+      ignorePowered: true
+      ignoreIFF: true
+      ignorePrice: true
+      distanceOverride: 1024 # so it doesn't despawn while in view
+    - type: RandomMetadata
+      nameSeparator: " "
+      nameSegments:
+      - ShipPrefix
+      - ShipSuffix
+    nameGrid: false
+
+- type: entity
+  id: SpawnWreckInvestigator
+  parent: SpawnWreckBase
+  components:
+  - type: GridSpawner
+    path: /Maps/_Nether/Shuttles/Deralict/scrap-investigator.yml
+
+- type: entity
+  id: SpawnWreckSprinter
+  parent: SpawnWreckBase
+  components:
+  - type: GridSpawner
+    path: /Maps/_Nether/Shuttles/Deralict/scrap-sprinter.yml
+
+- type: entity
+  id: SpawnWreckComet
+  parent: SpawnWreckBase
+  components:
+  - type: GridSpawner
+    path: /Maps/_Nether/Shuttles/Deralict/scrap-comet.yml
+
+- type: entity
+  id: SpawnWreckCourserX
+  parent: SpawnWreckBase
+  components:
+  - type: GridSpawner
+    path: /Maps/_Nether/Shuttles/Deralict/scrap-courserx.yml
+
+- type: entity
+  id: SpawnWreckCresent
+  parent: SpawnWreckBase
+  components:
+  - type: GridSpawner
+    path: /Maps/_Nether/Shuttles/Deralict/scrap-crescent.yml
+
+- type: entity
+  id: SpawnWreckHauler
+  parent: SpawnWreckBase
+  components:
+  - type: GridSpawner
+    path: /Maps/_Nether/Shuttles/Deralict/scrap-hauler.yml
+
+- type: entity
+  id: NetherWreckSpawner
+  parent: MarkerBase
+  categories: [Spawner]
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - SpawnWreckInvestigator
+    - SpawnWreckSprinter
+    - SpawnWreckComet
+    - SpawnWreckCourserX
+    - SpawnWreckCresent
+    - SpawnWreckHauler

@@ -827,3 +827,26 @@
     - id: MonoDroneSpawnerT2Far
       prob: 1
       orGroup: wreck
+
+#region Nevermore
+
+- type: spaceBiome
+  id: NeverGraveyard
+  parent: NFBiomeBase
+  priority: 50 # avg center coords is about 5056, 4480
+  minX: 24 # 3072m
+  maxX: 35 # 4480m
+  minY: -67 # -8578
+  maxY: -51 # -6528
+  noiseRanges: {}
+  chunkComponents:
+  - type: DebrisFeaturePlacerController
+    densityNoiseChannel: DensityHigh
+  - type: NoiseDrivenDebrisSelector
+    debrisTable:
+    - id: NetherWreckSpawner
+      prob: 1
+      orGroup: wreck
+    - id: NFWreckDebrisSmall
+      prob: 0.05
+      orGroup: wreck

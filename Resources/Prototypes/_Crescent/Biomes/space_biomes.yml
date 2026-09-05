@@ -64,3 +64,9 @@
   name: Wilds
   description: "Watch your back."
 
+# Nethermore
+- type: ambientSpaceBiome
+  id: BiomeGraveyard
+  name: STYX FTL Depot
+  description: "A Depot used to dump deralict ships clogging up Bluespace lanes."
+
