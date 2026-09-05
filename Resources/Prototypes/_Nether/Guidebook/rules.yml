@@ -11,6 +11,7 @@
   - CR4
   - CR5
   - CR6
+  - CR7
 
 - type: guideEntry
   id: CR0
@@ -53,3 +54,9 @@
   name: CR6
   text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR6.xml"
   priority: 7
+
+- type: guideEntry
+  id: CR7
+  name: CR7
+  text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR7.xml"
+  priority: 8
