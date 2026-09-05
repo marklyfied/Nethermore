@@ -1,4 +1,55 @@
 - type: guideEntry
   id: NetherRules
   name: Rules
-  text: "/ServerInfo/_Nether/Rules/nethermoreruleset.xml"
+  text: "/ServerInfo/_Nether/Guidebook/Rules/nethermoreruleset.xml"
+  priority: 0
+  children:
+  - CR0
+  - CR1
+  - CR2
+  - CR3
+  - CR4
+  - CR5
+  - CR6
+
+- type: guideEntry
+  id: CR0
+  name: CR0
+  text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR0.xml"
+  priority: 1
+
+- type: guideEntry
+  id: CR1
+  name: CR1
+  text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR1.xml"
+  priority: 2
+
+- type: guideEntry
+  id: CR2
+  name: CR2
+  text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR2.xml"
+  priority: 3
+
+- type: guideEntry
+  id: CR3
+  name: CR3
+  text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR3.xml"
+  priority: 4
+
+- type: guideEntry
+  id: CR4
+  name: CR4
+  text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR4.xml"
+  priority: 5
+
+- type: guideEntry
+  id: CR5
+  name: CR5
+  text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR5.xml"
+  priority: 6
+
+- type: guideEntry
+  id: CR6
+  name: CR6
+  text: "/ServerInfo/_Nether/Guidebook/Rules/CoreRules/CR6.xml"
+  priority: 7
