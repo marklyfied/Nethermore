@@ -35,3 +35,9 @@
     type: Add
   id: 4
   time: '2026-09-04T16:09-09:00'
+- author: Meh32 and Marklyfied
+  changes:
+  - message: An actual set of rules for Nethermore has been added to the guidebook. Please read them before playing on the server.
+    type: Add
+  id: 5
+  time: '2026-09-04T16:09-09:00'
