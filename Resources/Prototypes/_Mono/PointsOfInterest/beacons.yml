@@ -53,3 +53,33 @@
       components:
       - type: StationNameSetup
         mapNameTemplate: 'LINEAR-21 Asteroid Cluster'
+
+# Nevermore
+
+- type: pointOfInterest
+  id: BeaconSTYX
+  parent: [BasePOI, BaseRepairablePOI]
+  name: 'STYX FTL Depot'
+  minimumDistance: 0
+  maximumDistance: 100
+  posX: 5056
+  posY: -7552
+  spawnGroup: Required
+  gridPath: /Maps/_Nether/POI/beaconstation_styx.yml
+  addComponents:
+  - type: IFF
+    color: "#727272"
+  - type: SolarPoweredGrid
+    doNotCull: true
+
+- type: gameMap
+  id: BeaconSTYX
+  mapName: 'STYX FTL Depot'
+  mapPath: /Maps/_Nether/POI/beaconstation_styx.yml
+  minPlayers: 0
+  stations:
+    BeaconSTYX:
+      stationProto: RecordsFrontierOutpost
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: 'STYX FTL Depot'
