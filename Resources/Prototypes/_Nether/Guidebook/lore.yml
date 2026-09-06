@@ -1,4 +1,4 @@
 - type: guideEntry
   id: BasicLore
   name: Lore
-  text: "/ServerInfo/_Nether/Lore/primer.xml"
+  text: "/ServerInfo/_Nether/Guidebook/Lore/primer.xml"
