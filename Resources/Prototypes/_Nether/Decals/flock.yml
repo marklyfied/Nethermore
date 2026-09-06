@@ -1,0 +1,69 @@
+- type: decal
+  id: flocklogo1
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo1
+
+- type: decal
+  id: flocklogo2
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo2
+
+- type: decal
+  id: flocklogo3
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo3
+
+- type: decal
+  id: flocklogo4
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo4
+
+- type: decal
+  id: flocklogo5
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo5
+
+- type: decal
+  id: flocklogo6
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo6
+
+- type: decal
+  id: flocklogo7
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo7
+
+- type: decal
+  id: flocklogo8
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo8
+
+- type: decal
+  id: flocklogo9
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flocklogo9
+
+- type: decal
+  id: flocklogosmall
+  tags: ["flock"]
+  sprite:
+    sprite: Decals/flocklogo.rsi
+    state: flock

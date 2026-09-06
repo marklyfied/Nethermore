@@ -1,5 +1,26 @@
 #region Random Spawners
 
+- type: dataset
+  id: DroneHexDamaged
+  values:
+  - "#"
+  - "#"
+  - "#"
+  - "#"
+  - A
+  - B
+  - C
+  - D
+  - E
+  - F
+  - a
+  - b
+  - c
+  - d
+  - e
+  - f
+
+
 - type: entity
   id: SpawnDroneBaseNether
   parent: MarkerBase
@@ -36,9 +57,20 @@
   components:
   - type: RandomSpawner
     prototypes:
-    - SpawnDroneMote
-    - SpawnDroneDander
-    - SpawnDroneMPulsar
+    - SpawnDroneSurvey
+    - SpawnDroneMisprint
+    - SpawnDroneTrapper
+
+- type: entity
+  id: NetherDroneSpawnerT1
+  parent: MarkerBase
+  categories: [Spawner]
+  components:
+  - type: RandomSpawner
+    prototypes:
+    - SpawnDroneScout
+    - SpawnDroneAssault
+    - SpawnDroneTrapper
 
 - type: entity
   id: SpawnDroneScout
@@ -111,7 +143,7 @@
   parent: SpawnDroneBaseNether
   components:
   - type: GridSpawner
-    path: /SharedMaps/_Nether/Shuttles/world/Trapper.yml
+    path: /SharedMaps/_Nether/Shuttles/world/Harvester.yml
     addComponents:
     - type: RandomMetadata
       nameSeparator: ""
@@ -120,5 +152,24 @@
       - DroneHex
       - DroneHex
       - DroneHex
+      - DroneHex
+    nameGrid: false
+
+- type: entity
+  id: SpawnDroneMisprint
+  parent: SpawnDroneBaseNether
+  components:
+  - type: GridSpawner
+    path: /SharedMaps/_Nether/Shuttles/world/Misprint.yml
+    addComponents:
+    - type: RandomMetadata
+      nameSeparator: ""
+      nameSegments:
+      - DroneHexDamaged
+      - DroneHexDamaged
+      - DroneHexDamaged
+      - DroneHexDamaged
+      - DroneHexDamaged
+      - "-"
       - DroneHex
     nameGrid: false
