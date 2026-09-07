@@ -32,14 +32,15 @@
         - LowImpassable
   - type: InteractionOutline
   - type: Sprite
-    sprite: _Mono/Mobs/Core/drone.rsi
+    noRot: true
+    sprite: _Nether/Structures/Specific/DroneCores/ai_node.rsi
     layers:
     - state: base
     - state: red_t1
       shader: unshaded
   - type: Appearance
   - type: InteractionPopup
-    interactSuccessString: petting-success-station-ai
+    interactSuccessString: petting-success-recycler
     interactFailureString: petting-failure-station-ai
     messagePerceivedByOthers: petting-success-station-ai-others
     interactSuccessSound:

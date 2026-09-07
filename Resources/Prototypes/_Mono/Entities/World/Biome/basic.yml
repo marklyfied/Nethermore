@@ -118,6 +118,9 @@
     - id: NFWreckDebrisBrassExtraLarge
       prob: 0.05
       orGroup: wreck
+    - id: NetherDroneSpawnerT0
+      prob: 0.075
+      orGroup: wreck
   - type: NoiseDrivenDebrisSelector
     noiseChannel: Wreck
     debrisTable:
@@ -236,7 +239,7 @@
     - id: NFWreckDebrisBrassMedium
       prob: 0.006
       orGroup: wreck
-    - id: MonoDroneSpawnerT0
+    - id: NetherDroneSpawnerT0
       prob: 0.075
       orGroup: wreck
 
@@ -345,7 +348,7 @@
     - id: NFWreckDebrisBrassMedium
       prob: 0.006
       orGroup: wreck
-    - id: MonoDroneSpawnerT1
+    - id: NetherDroneSpawnerT1
       prob: 0.05
       orGroup: wreck
     - id: MonoDroneSpawnerT2Inner
@@ -403,7 +406,7 @@
     - id: NFWreckDebrisExtraLarge
       prob: 1
       orGroup: wreck
-    - id: MonoDroneSpawnerT1
+    - id: NetherDroneSpawnerT1
       prob: 0.005
       orGroup: wreck
 
@@ -739,7 +742,7 @@
     - id: NFWreckDebrisBrassExtraLarge
       prob: 1
       orGroup: wreck
-    - id: MonoDroneSpawnerT1
+    - id: NetherDroneSpawnerT1
       prob: 3
       orGroup: wreck
 
@@ -849,4 +852,7 @@
       orGroup: wreck
     - id: NFWreckDebrisSmall
       prob: 0.05
+      orGroup: wreck
+    - id: NetherDroneSpawnerT0
+      prob: 0.075
       orGroup: wreck

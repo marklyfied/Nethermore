@@ -41,3 +41,9 @@
     type: Add
   id: 5
   time: '2026-09-04T16:09-09:00'
+- author: Meh32
+  changes:
+  - message: Drones have been removed and replaced with the FLOCK. A new faction of rouge defence drones. Tier 2 drones remain unchanged for now.
+    type: Add
+  id: 6
+  time: '2026-09-05T16:09-09:00'

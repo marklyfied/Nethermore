@@ -1,0 +1,42 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "made by Meh32",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "flock"
+      }, 
+      {
+        "name": "flocklogo1"
+      },
+      {
+        "name": "flocklogo2"
+      },
+      {
+        "name": "flocklogo3"
+      },
+      {
+        "name": "flocklogo4"
+      },
+      {
+        "name": "flocklogo5"
+      },
+      {
+        "name": "flocklogo6"
+      },
+      {
+        "name": "flocklogo7"
+      },
+      {
+        "name": "flocklogo8"
+      },
+      {
+        "name": "flocklogo9"
+      }
+    ]
+  }
+  
