@@ -848,7 +848,7 @@
   - type: NoiseDrivenDebrisSelector
     debrisTable:
     - id: NetherWreckSpawner
-      prob: 1
+      prob: 0.5
       orGroup: wreck
     - id: NFWreckDebrisSmall
       prob: 0.05

@@ -56,42 +56,42 @@
   parent: SpawnWreckBase
   components:
   - type: GridSpawner
-    path: /Maps/_Nether/Shuttles/Deralict/scrap-investigator.yml
+    path: /Maps/_Nether/Shuttles/derelict/scrap-investigator.yml
 
 - type: entity
   id: SpawnWreckSprinter
   parent: SpawnWreckBase
   components:
   - type: GridSpawner
-    path: /Maps/_Nether/Shuttles/Deralict/scrap-sprinter.yml
+    path: /Maps/_Nether/Shuttles/derelict/scrap-sprinter.yml
 
 - type: entity
   id: SpawnWreckComet
   parent: SpawnWreckBase
   components:
   - type: GridSpawner
-    path: /Maps/_Nether/Shuttles/Deralict/scrap-comet.yml
+    path: /Maps/_Nether/Shuttles/derelict/scrap-comet.yml
 
 - type: entity
   id: SpawnWreckCourserX
   parent: SpawnWreckBase
   components:
   - type: GridSpawner
-    path: /Maps/_Nether/Shuttles/Deralict/scrap-courserx.yml
+    path: /Maps/_Nether/Shuttles/derelict/scrap-courserx.yml
 
 - type: entity
   id: SpawnWreckCresent
   parent: SpawnWreckBase
   components:
   - type: GridSpawner
-    path: /Maps/_Nether/Shuttles/Deralict/scrap-crescent.yml
+    path: /Maps/_Nether/Shuttles/derelict/scrap-crescent.yml
 
 - type: entity
   id: SpawnWreckHauler
   parent: SpawnWreckBase
   components:
   - type: GridSpawner
-    path: /Maps/_Nether/Shuttles/Deralict/scrap-hauler.yml
+    path: /Maps/_Nether/Shuttles/derelict/scrap-hauler.yml
 
 - type: entity
   id: NetherWreckSpawner

@@ -31,7 +31,7 @@
   time: '2026-09-04T16:09-09:00'
 - author: Meh32
   changes:
-  - message: The STYX FTL Depot is now online. A ship graveyard with deralict ships to loot and harvest for materials.
+  - message: The STYX FTL Depot is now online. A ship graveyard with derelict ships to loot and harvest for materials.
     type: Add
   id: 4
   time: '2026-09-04T16:09-09:00'

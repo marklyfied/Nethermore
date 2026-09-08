@@ -68,5 +68,5 @@
 - type: ambientSpaceBiome
   id: BiomeGraveyard
   name: STYX FTL Depot
-  description: "A Depot used to dump deralict ships clogging up Bluespace lanes."
+  description: "A Depot used to dump derelict ships clogging up Bluespace lanes."
 
